@@ -23,7 +23,7 @@ Array Questions:
 1. How are duplicates removed from an array without using any library?
 
 Linked List Questions:
-1. How do you find the middle element of a singly linked list in one pass?
+1. [How do you find the middle element of a singly linked list in one pass?](src/linked_list_middle_element.go)
 1. How do you check if a given linked list contains a cycle? How do you find the starting node of the cycle?
 1. How do you reverse a linked list?
 1. How do you reverse a singly linked list without recursion?
