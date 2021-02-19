@@ -5,7 +5,7 @@ Basic algorithmic interview questions, answered in Go.
 From https://simpleprogrammer.com/programming-interview-questions/
 
 Array Questions:
-1. How do you find the missing number in a given integer array of 1 to 100?
+1. [How do you find the missing number in a given integer array of 1 to 100?](src/find_missing_integer.go)
 1. How do you find the duplicate number on a given integer array?
 1. How do you find the largest and smallest number in an unsorted integer array?
 1. How do you find all pairs of an integer array whose sum is equal to a given number?
