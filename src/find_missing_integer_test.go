@@ -9,7 +9,7 @@ func TestGetMissingInteger(t *testing.T) {
 		numbers := createSliceWithMissingNumber(n)
 		got := GetMissingInteger(numbers)
 		if got != n {
-			t.Errorf("GetFirstNonRepeatedChar(%v) = %v, want %v", numbers, got, n)
+			t.Errorf("GetMissingInteger(%v) = %v, want %v", numbers, got, n)
 		}
 	}
 }
