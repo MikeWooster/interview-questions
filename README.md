@@ -1,13 +1,19 @@
 # Interview Questions
 
 Basic algorithmic interview questions, answered in Go.
+For the majority of cases, where an array is requested, I have
+made the assumption that we can guarantee that the array is populated
+or that the specification of the question are always true, e.g. when 
+finding a repeated character in a string, the string is always populated
+with characters and there is always a repeated character. This avoids noisy
+defensive programming that distracts from the solution.
 
 From https://simpleprogrammer.com/programming-interview-questions/
 
 Array Questions:
 1. [How do you find the missing number in a given integer array of 1 to 100?](src/find_missing_integer.go)
 1. [How do you find the duplicate number on a given integer array?](src/get_duplicate_number.go)
-1. How do you find the largest and smallest number in an unsorted integer array?
+1. [How do you find the largest and smallest number in an unsorted integer array?](src/min_max_numbers.go)
 1. How do you find all pairs of an integer array whose sum is equal to a given number?
 1. How do you find duplicate numbers in an array if it contains multiple duplicates?
 1. How are duplicates removed from a given array in Java?
