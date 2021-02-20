@@ -64,3 +64,35 @@ func (l *LinkedList) AtIndex(i int) (int, error) {
 
 	return node.Value, nil
 }
+
+// Equals compares the value and order of 2 linked lists
+func (l *LinkedList) Equals(other LinkedList) bool {
+	if l.GetLen() != other.GetLen() {
+		return false
+	}
+
+	thisNode := l.Head
+	otherNode := other.Head
+
+	for thisNode != nil {
+		if thisNode.Value != otherNode.Value {
+			return false
+		}
+		thisNode = thisNode.Next
+		otherNode = otherNode.Next
+	}
+	return true
+}
+
+// Values returns the list of all values in the linked list
+func (l *LinkedList) Values() []int {
+	var values []int
+
+	node := l.Head
+	for node != nil {
+		values = append(values, node.Value)
+		node = node.Next
+	}
+
+	return values
+}

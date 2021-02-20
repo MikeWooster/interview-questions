@@ -25,7 +25,7 @@ Array Questions:
 Linked List Questions:
 1. [How do you find the middle element of a singly linked list in one pass?](src/linked_list_middle_element.go)
 1. [How do you check if a given linked list contains a cycle? How do you find the starting node of the cycle?](src/linked_list_cycle.go)
-1. How do you reverse a linked list?
+1. [How do you reverse a linked list?](src/linked_list_reverse.go)
 1. How do you reverse a singly linked list without recursion?
 1. How are duplicate nodes removed in an unsorted linked list?
 1. How do you find the length of a singly linked list?
