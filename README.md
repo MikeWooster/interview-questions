@@ -47,7 +47,7 @@ String Questions:
 1. How do you check if a given string is a palindrome?
 
 Binary Tree Questions:
-1. How is a binary search tree implemented?
+1. [How is a binary search tree implemented?](src/binarsearchtree.go)
 1. How do you perform preorder traversal in a given binary tree?
 1. How do you traverse a given binary tree in preorder without recursion?
 1. How do you perform an inorder traversal in a given binary tree?
