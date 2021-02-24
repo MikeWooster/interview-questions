@@ -40,6 +40,30 @@ func (n *BinarySearchNode) Print() string {
 	return fmt.Sprintf("Node: %v, Parent: %v, LeftChild: %v, RightChild: %v", n.Value, pv, lv, rv)
 }
 
+type nodeStack struct {
+	stack []*BinarySearchNode
+	len   int
+}
+
+func (s *nodeStack) Len() int {
+	return s.len
+}
+
+func (s *nodeStack) Append(n *BinarySearchNode) {
+	s.stack = append(s.stack, n)
+	s.len++
+}
+
+func (s *nodeStack) Pop() *BinarySearchNode {
+	if s.len == 0 {
+		return nil
+	}
+	last := s.stack[s.len-1]
+	s.stack = s.stack[:s.len-1]
+	s.len--
+	return last
+}
+
 // BinarySearchTree represents the tree itself.
 type BinarySearchTree struct {
 	Root *BinarySearchNode

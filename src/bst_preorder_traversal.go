@@ -33,30 +33,6 @@ func (t *BinarySearchTree) preorderTraversalRecursive(n *BinarySearchNode) []int
 	return r
 }
 
-type nodeStack struct {
-	stack []*BinarySearchNode
-	len   int
-}
-
-func (s *nodeStack) Len() int {
-	return s.len
-}
-
-func (s *nodeStack) Append(n *BinarySearchNode) {
-	s.stack = append(s.stack, n)
-	s.len++
-}
-
-func (s *nodeStack) Pop() *BinarySearchNode {
-	if s.len == 0 {
-		return nil
-	}
-	last := s.stack[s.len-1]
-	s.stack = s.stack[:s.len-1]
-	s.len--
-	return last
-}
-
 // PreorderTraversal traverse the tree in `preorder`, i.e. root, left, right.
 func (t *BinarySearchTree) PreorderTraversal() []int {
 	// Setup the result array
