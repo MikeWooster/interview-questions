@@ -1,5 +1,35 @@
 package main
 
+// InorderTraversalRecursive traverses the binary tree recursively inorder
+// i.e. left, root, right
+func (t *BinarySearchTree) InorderTraversalRecursive() []int {
+	return t.inorderTraversalRecursive(t.Root)
+}
+
+func (t *BinarySearchTree) inorderTraversalRecursive(n *BinarySearchNode) []int {
+	var r []int
+
+	if n == nil {
+		return r
+	}
+
+	if n.Left != nil {
+		for _, v := range t.inorderTraversalRecursive(n.Left) {
+			r = append(r, v)
+		}
+	}
+
+	r = append(r, n.Value)
+
+	if n.Right != nil {
+		for _, v := range t.inorderTraversalRecursive(n.Right) {
+			r = append(r, v)
+		}
+	}
+
+	return r
+}
+
 // InorderTraversal traverses the binary tree inorder
 // i.e. left, root, right
 func (t *BinarySearchTree) InorderTraversal() []int {
