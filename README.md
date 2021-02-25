@@ -19,7 +19,7 @@ Array Questions:
 1. [How are duplicates removed from a given array?](src/array_remove_duplicates.go)
 1. How is an integer array sorted in place using the quicksort algorithm?
 1. How do you remove duplicates from an array in place?
-1. How do you reverse an array in place in Java?
+1. [How do you reverse an array?](src/array_reverse.go)
 
 Linked List Questions:
 1. [How do you find the middle element of a singly linked list in one pass?](src/linked_list_middle_element.go)
