@@ -50,9 +50,7 @@ Binary Tree Questions:
 1. [How is a binary search tree implemented?](src/binarsearchtree.go)
 1. [How do you perform preorder traversal in a given binary tree?](src/bst_preorder_traversal.go)
 1. [How do you perform an inorder traversal in a given binary tree?](src/bst_inorder_traversal.go)
-1. How do you print all nodes of a given binary tree using inorder traversal without recursion?
-1. How do you implement a postorder traversal algorithm?
-1. How do you traverse a binary tree in postorder traversal without recursion?
+1. [How do you implement a postorder traversal algorithm?](src/bst_postorder_traversal.go)
 1. How are all leaves of a binary search tree printed?
 1. How do you count a number of leaf nodes in a given binary tree?
 1. How do you perform a binary search in a given array?
