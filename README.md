@@ -15,7 +15,7 @@ Array Questions:
 1. [How do you find the duplicate number on a given integer array?](src/array_duplicate_number.go)
 1. [How do you find the largest and smallest number in an unsorted integer array?](src/min_max_numbers.go)
 1. [How do you find all pairs of an integer array whose sum is equal to a given number?](src/number_pair_sum.go)
-1. How do you find duplicate numbers in an array if it contains multiple duplicates?
+1. [How do you find duplicate numbers in an array if it contains multiple duplicates?](src/array_duplicate_numbers.go)
 1. How are duplicates removed from a given array in Java?
 1. How is an integer array sorted in place using the quicksort algorithm?
 1. How do you remove duplicates from an array in place?
