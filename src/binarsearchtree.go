@@ -218,13 +218,6 @@ func (t *BinarySearchTree) maxNode(node *BinarySearchNode) *BinarySearchNode {
 	}
 }
 
-// Search finds a the value of element in the tree, and reports whether it
-// is present or not.
-func (t *BinarySearchTree) Search(v int) bool {
-	finder := t.getNode(v)
-	return finder != nil
-}
-
 // Delete removes a value from the tree if it is in the tree.
 func (t *BinarySearchTree) Delete(v int) {
 	node := t.getNode(v)
@@ -281,26 +274,6 @@ func (t *BinarySearchTree) deleteNode(node *BinarySearchNode) {
 		node.Parent.Right = promoted
 	}
 
-}
-
-// getNode finds the node in the tree and returns it, or nil
-// if it can't be found.
-func (t *BinarySearchTree) getNode(v int) *BinarySearchNode {
-	node := t.Root
-
-	for node != nil {
-		if v == node.Value {
-			return node
-		}
-
-		if v < node.Value {
-			node = node.Left
-		} else {
-			node = node.Right
-		}
-	}
-
-	return nil
 }
 
 func pop(nodes *[]*BinarySearchNode) *BinarySearchNode {

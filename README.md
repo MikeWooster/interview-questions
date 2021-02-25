@@ -52,7 +52,7 @@ Binary Tree Questions:
 1. [How do you perform an inorder traversal in a given binary tree?](src/bst_inorder_traversal.go)
 1. [How do you implement a postorder traversal algorithm?](src/bst_postorder_traversal.go)
 1. [How do you count a number of leaf nodes in a given binary tree?](src/bst_leaf_node_count.go)
-1. How do you perform a binary search in a given array?
+1. [How do you perform a binary search in a given binary tree?](src/bst_search.go)
 
 Misc Questions:
 1. How is a bubble sort algorithm implemented?
