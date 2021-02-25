@@ -16,11 +16,10 @@ Array Questions:
 1. [How do you find the largest and smallest number in an unsorted integer array?](src/min_max_numbers.go)
 1. [How do you find all pairs of an integer array whose sum is equal to a given number?](src/number_pair_sum.go)
 1. [How do you find duplicate numbers in an array if it contains multiple duplicates?](src/array_duplicate_numbers.go)
-1. How are duplicates removed from a given array in Java?
+1. [How are duplicates removed from a given array?](src/array_remove_duplicates.go)
 1. How is an integer array sorted in place using the quicksort algorithm?
 1. How do you remove duplicates from an array in place?
 1. How do you reverse an array in place in Java?
-1. How are duplicates removed from an array without using any library?
 
 Linked List Questions:
 1. [How do you find the middle element of a singly linked list in one pass?](src/linked_list_middle_element.go)
