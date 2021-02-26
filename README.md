@@ -36,7 +36,7 @@ String Questions:
 1. [How do you check if two strings are anagrams of each other?](src/string_anagrams.go)
 1. [How do you print the first non-repeated character from a string?](src/first_non_repeated_char.go)
 1. [How can a given string be reversed using recursion?](src/reverse_string.go)
-1. How do you check if a string contains only digits?
+1. [How do you check if a string contains only digits?](src/string_only_digits.go)
 1. How are duplicate characters found in a string?
 1. How do you count a number of vowels and consonants in a given string?
 1. How do you count the occurrence of a given character in a string?
